@@ -39,6 +39,17 @@ const showTotal = () => {
   }, 0);
   order.innerHTML = total;
 };
+const orderNow = () => {
+  if (cart.length === 0) {
+    order.innerHtml = "Your cart is empty.";
+    return;
+  } else {
+    alert("Order Placed Successfully");
+    order.innerHTML = "Total Amount: $" + calculateTotal();
+    cart = [];
+    showCart();
+  }
+};
 
 const showCart = () => {
   let count = Object.keys(cart).length;
