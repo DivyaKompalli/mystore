@@ -31,7 +31,9 @@
 .box:hover {
   transform: translateY(-10px);
 }
-
+#cartBox {
+  text-align: center;
+}
 .row button {
   background-color: #678d58;
   font-size: 20px;
