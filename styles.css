@@ -3,10 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px;
+  background-color: #f6e7cb;
 }
 #header li {
   padding: 5px;
   display: inline-block;
+}
+#productBox {
+  background-color: azure;
 }
 .row {
   display: flex;
@@ -22,6 +26,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   text-align: center;
+  background-color: aliceblue;
 }
 .box:hover {
   transform: translateY(-10px);
